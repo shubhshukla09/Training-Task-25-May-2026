@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# StoryForge-AI-Blog-Website
-=======
 # 🚀 StoryForge AI  
 ## Cinematic AI-Powered Blogging Platform
 
@@ -247,7 +244,6 @@ GET /api/newsletter
 
 # 📄 License
 
-
+This project is licensed under the Training.
 
 ---
->>>>>>> 308debdf88b8b34cd1d4dba25e895de80160dde4

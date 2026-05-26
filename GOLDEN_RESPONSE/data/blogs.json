@@ -1,0 +1,155 @@
+[
+  {
+    "id": "1",
+    "slug": "designing-premium-digital-experiences",
+    "title": "Designing Premium Digital Experiences That Feel Effortless",
+    "excerpt": "How high-end product teams combine visual hierarchy, motion, and content strategy to create interfaces that feel fast and intentional.",
+    "coverImage": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?auto=format&fit=crop&w=1600&q=80",
+    "publishedAt": "2026-04-14",
+    "readingTime": 8,
+    "featured": true,
+    "trending": true,
+    "category": "Design",
+    "tags": ["UX", "Design Systems", "Product"],
+    "author": {
+      "name": "Ava Thompson",
+      "role": "Design Lead",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=300&q=80"
+    },
+    "content": "## Start with clear visual rhythm\nPremium interfaces are calm because spacing, typography, and interaction patterns are intentionally constrained. A strong vertical rhythm keeps long-form content readable and avoids cognitive overload.\n\n## Motion should clarify, not decorate\nMicro-interactions should confirm user intent. Use spring-based transitions to guide attention toward changed elements and preserve context during route changes.\n\n### Match animation speed to user intent\nFast feedback for taps and subtle easing for larger transitions help the product feel responsive without becoming noisy.\n\n## Build trust through consistency\nReusable UI primitives and strict tokens ensure components look predictable across pages. Consistent layouts reduce decision fatigue and increase perceived quality."
+  },
+  {
+    "id": "2",
+    "slug": "nextjs-performance-playbook-2026",
+    "title": "Next.js Performance Playbook for Fast Content-Heavy Websites",
+    "excerpt": "A practical blueprint for optimizing media, rendering, and route-level UX in modern Next.js blog applications.",
+    "coverImage": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1600&q=80",
+    "publishedAt": "2026-04-28",
+    "readingTime": 9,
+    "featured": true,
+    "trending": true,
+    "category": "Performance",
+    "tags": ["Next.js", "Web Vitals", "Optimization"],
+    "author": {
+      "name": "Liam Carter",
+      "role": "Frontend Engineer",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80"
+    },
+    "content": "## Prioritize the first meaningful viewport\nShip the core reading layout instantly and defer non-essential interactions. Loading skeletons provide immediate structure while data settles.\n\n## Use optimized media by default\nNext/Image enforces dimension-aware loading and responsive sources. Combined with remote image configuration, this reduces layout shifts and improves LCP.\n\n### Design for perceived speed\nProgressive disclosure, shimmer placeholders, and smooth route transitions reduce waiting anxiety for users even on slower devices.\n\n## Keep components composable\nA modular architecture across app, components, lib, hooks, data, and types reduces bundle complexity and speeds up long-term feature delivery."
+  },
+  {
+    "id": "3",
+    "slug": "building-a-motion-language-with-framer-motion",
+    "title": "Building a Cohesive Motion Language with Framer Motion",
+    "excerpt": "Create animation systems that scale across pages while maintaining accessibility and performance best practices.",
+    "coverImage": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=1600&q=80",
+    "publishedAt": "2026-05-02",
+    "readingTime": 7,
+    "featured": false,
+    "trending": true,
+    "category": "Frontend",
+    "tags": ["Framer Motion", "Animation", "Accessibility"],
+    "author": {
+      "name": "Noah Kim",
+      "role": "UI Engineer",
+      "avatar": "https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=300&q=80"
+    },
+    "content": "## Define motion tokens first\nAnimation duration, easing curves, and offset values should be centralized so components feel part of one system.\n\n## Respect reduced motion preferences\nAlways provide reduced-motion fallbacks so accessibility users are not overwhelmed by transitions.\n\n### Use viewport-triggered reveals thoughtfully\nReveal effects work best when used to stage hierarchy in long pages. Overusing them can create visual fatigue.\n\n## Keep interaction feedback immediate\nButtons, cards, and toggles should respond instantly to hover and focus to preserve a premium feel."
+  },
+  {
+    "id": "4",
+    "slug": "editorial-workflows-for-high-velocity-content-teams",
+    "title": "Editorial Workflows for High-Velocity Content Teams",
+    "excerpt": "How modern publishing teams structure draft/published states, analytics visibility, and modular review pipelines.",
+    "coverImage": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1600&q=80",
+    "publishedAt": "2026-05-06",
+    "readingTime": 10,
+    "featured": true,
+    "trending": false,
+    "category": "Operations",
+    "tags": ["CMS", "Workflow", "Analytics"],
+    "author": {
+      "name": "Sophia Bennett",
+      "role": "Content Strategist",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=300&q=80"
+    },
+    "content": "## Treat publishing as a product surface\nThe admin dashboard should expose status, ownership, and visibility at a glance. This removes friction for editorial teams.\n\n## Separate creation from promotion\nDrafting, editing, and publishing need clear UI states. Better state design reduces accidental releases.\n\n### Surface analytics where decisions happen\nAuthors should see views, engagement, and trend indicators without jumping to external dashboards.\n\n## Make iteration cheap\nReusable forms and card patterns enable rapid content experimentation without redesigning internal tools."
+  },
+  {
+    "id": "5",
+    "slug": "crafting-a-scalable-component-architecture",
+    "title": "Crafting a Scalable Component Architecture for Blogs",
+    "excerpt": "A practical guide to building maintainable frontend systems with reusable components, typed data, and clear boundaries.",
+    "coverImage": "https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?auto=format&fit=crop&w=1600&q=80",
+    "publishedAt": "2026-05-10",
+    "readingTime": 9,
+    "featured": false,
+    "trending": true,
+    "category": "Engineering",
+    "tags": ["Architecture", "TypeScript", "Scalability"],
+    "author": {
+      "name": "Ethan Brooks",
+      "role": "Staff Engineer",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=300&q=80"
+    },
+    "content": "## Design around reusable primitives\nButtons, inputs, cards, and badges should encode visual language once and be reused everywhere.\n\n## Keep data contracts explicit\nShared TypeScript types prevent page-level assumptions and improve confidence when expanding features.\n\n### Normalize utility helpers\nFiltering, pagination, and related-content logic belongs in lib helpers so route components stay focused on presentation.\n\n## Optimize for long-term maintainability\nA predictable folder structure improves onboarding and lets teams move quickly without regressions."
+  },
+  {
+    "id": "6",
+    "slug": "dark-mode-that-actually-improves-readability",
+    "title": "Dark Mode That Actually Improves Readability",
+    "excerpt": "Common pitfalls in dark themes and how to design token-based palettes that remain elegant and readable.",
+    "coverImage": "https://images.unsplash.com/photo-1517090504586-fde19ea6066f?auto=format&fit=crop&w=1600&q=80",
+    "publishedAt": "2026-05-14",
+    "readingTime": 6,
+    "featured": false,
+    "trending": false,
+    "category": "Design",
+    "tags": ["Dark Mode", "Accessibility", "Typography"],
+    "author": {
+      "name": "Mia Rivera",
+      "role": "Product Designer",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=300&q=80"
+    },
+    "content": "## Start with contrast ratios, not colors\nReadable dark themes rely on balanced luminance, not pure black backgrounds and pure white text.\n\n## Use semantic tokens\nDefine background, card, border, and muted text as semantic variables so both themes stay consistent.\n\n### Account for translucency\nGlassmorphism layers need contrast-aware borders and shadows, otherwise cards blend into the background.\n\n## Keep typography calm\nLine-height, letter spacing, and paragraph width are just as important as color in long-form reading experiences."
+  },
+  {
+    "id": "7",
+    "slug": "seo-patterns-for-modern-blog-platforms",
+    "title": "SEO Patterns for Modern Blog Platforms in the App Router Era",
+    "excerpt": "Metadata strategies, structured hierarchy, and page semantics that improve discoverability without sacrificing UX.",
+    "coverImage": "https://images.unsplash.com/photo-1487014679447-9f8336841d58?auto=format&fit=crop&w=1600&q=80",
+    "publishedAt": "2026-05-18",
+    "readingTime": 8,
+    "featured": true,
+    "trending": true,
+    "category": "SEO",
+    "tags": ["SEO", "Metadata", "Content Strategy"],
+    "author": {
+      "name": "Isabella Clark",
+      "role": "Growth Strategist",
+      "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=300&q=80"
+    },
+    "content": "## Use route-level metadata intentionally\nTitle and description should reflect search intent and page context. Dynamic routes benefit from per-post metadata generation.\n\n## Keep content structure semantic\nA clear heading hierarchy improves both accessibility and search understanding.\n\n### Link related content naturally\nRelated-post sections increase discoverability and dwell time while helping users continue reading.\n\n## Avoid over-optimized copy\nWrite for humans first. Search engines reward clarity, relevance, and topical depth over keyword stuffing."
+  },
+  {
+    "id": "8",
+    "slug": "newsletter-systems-that-drive-retention",
+    "title": "Newsletter Systems That Drive Retention Without Noise",
+    "excerpt": "Build subscription surfaces that feel integrated with product value instead of interruptive marketing popups.",
+    "coverImage": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1600&q=80",
+    "publishedAt": "2026-05-21",
+    "readingTime": 7,
+    "featured": false,
+    "trending": true,
+    "category": "Growth",
+    "tags": ["Newsletter", "Retention", "Marketing"],
+    "author": {
+      "name": "James Patel",
+      "role": "Growth Marketer",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&q=80"
+    },
+    "content": "## Offer contextual value\nNewsletter signups perform better when paired with clear outcomes such as weekly insights or curated resources.\n\n## Keep the interaction lightweight\nAsking for only an email lowers friction and improves conversion on mobile.\n\n### Reinforce trust in microcopy\nShort privacy-first messaging can materially improve submission confidence.\n\n## Measure quality over volume\nTrack retained readers and click-through behavior to optimize newsletter content quality."
+  }
+]
+

@@ -1,528 +1,709 @@
-# AI-Powered Blog Platform – Production-Grade Full Stack Website
+# Prompt
 
-## Context and Role
+# Context and Role
 
-### Senior Full-Stack Developer Responsibilities
+As a Senior Full-Stack Developer and Software Architect, build a production-grade AI-powered blog platform with modern UI/UX, scalable backend systems, secure APIs, immersive animations, and optimized performance.
 
-I am a Senior Full-Stack Developer responsible for designing and building a production-grade AI-powered blog website.
+The platform must provide a seamless experience for readers, writers, and administrators while following enterprise-level software engineering practices such as:
 
-The platform must combine:
+- Clean Architecture
+- Modular Folder Structure
+- Reusable Components
+- Secure Authentication
+- Input Validation
+- Error Handling
+- SEO Optimization
+- Accessibility Compliance
+- Performance Optimization
+- Production-Ready Deployment
 
-- Modern and user-friendly UI/UX
-- Scalable backend architecture
-- Smart content organization
-- High performance
-- Strong security
-- Cross-device responsiveness
-
-The website should provide users with a seamless reading and publishing experience while using modern technologies for fast rendering and secure backend processing.
-
----
-
-## Core Platform Expectations
-
-The platform must support:
-
-- Blog post management
-- Category-based filtering
-- Rich-text and markdown rendering
-- Intelligent search functionality
-- Secure authentication and authorization
-- Advanced admin dashboard
-- Smooth transitions and modern animations
-- SEO optimization
-- High scalability for large traffic volumes
+The application should feel modern, responsive, scalable, secure, visually polished, and ready for real-world deployment.
 
 ---
 
 # Objective
 
-## Main Development Goals
+Develop a complete AI-powered blog platform that includes:
 
-Develop a full-stack AI-powered blog platform that includes:
-
-- Modern responsive UI with smooth animations
-- Immersive storytelling-based blog reading experience
+- Modern responsive UI
 - Blog CRUD functionality
-- Secure authentication and authorization
-- Category filtering and intelligent search
-- Markdown or rich-text rendering
-- Admin dashboard for content management
-- SEO and accessibility optimization
-- Scalable backend architecture
-- Secure APIs and data handling
+- Authentication and authorization
+- Rich-text and markdown support
+- AI-powered recommendations
+- Category filtering and search
+- Admin dashboard
+- Newsletter and contact system
+- Error handling and validation
+- SEO optimization
+- Docker-ready deployment
+
+---
+
+# Table of Contents
+
+- [Project Architecture](#project-architecture)
+- [Project Structure](#project-structure)
+- [Architecture Layer Responsibilities](#architecture-layer-responsibilities)
+- [Routing and Pages](#routing-and-pages)
+- [UI and Animation Requirements](#ui-and-animation-requirements)
+- [Layout Requirements](#layout-requirements)
+- [Blog Management Requirements](#blog-management-requirements)
+- [Authentication and Authorization](#authentication-and-authorization)
+- [Contact System Requirements](#contact-system-requirements)
+- [Backend Requirements](#backend-requirements)
+- [Data Processing Requirements](#data-processing-requirements)
+- [Error Handling and Documentation](#error-handling-and-documentation)
+- [Performance and Scalability](#performance-and-scalability)
+- [SEO and Accessibility](#seo-and-accessibility)
+- [Deployment Requirements](#deployment-requirements)
+- [Technology Stack](#technology-stack)
+- [Output Requirements](#output-requirements)
+
+---
+
+## Project Architecture
+
+The project must follow a scalable and production-grade architecture with proper separation of concerns.
+
+Architecture layers must include:
+
+- Presentation Layer
+- Component Layer
+- Routing Layer
+- Business Logic Layer
+- API Layer
+- Authentication Layer
+- Validation Layer
+- Database Layer
+- AI and Analytics Layer
+- Security Layer
+- Deployment Layer
+
+The architecture must ensure:
+
+- UI logic remains isolated from backend logic
+- Validation remains separate from controllers
+- APIs remain separated from UI components
+- Database logic remains isolated
+- Authentication remains modular
+- Security logic remains reusable
+- AI systems remain scalable
+
+---
+
+# Project Structure
+
+Strictly follow this structure:
+
+- app
+- components
+- data
+- hooks
+- lib
+- prisma
+- public
+- styles
+- types
+
+Configuration and root files:
+
+- README.md
+- next.config.ts
+- tailwind.config.ts
+- package.json
+- tsconfig.json
+
+---
+
+# Architecture Layer Responsibilities
+
+## Presentation Layer
+
+Responsible for:
+
+- UI rendering
+- Responsive layouts
+- User interactions
+- Animations
+- Accessibility
+
+Implemented inside:
+
+- app
+- components
+- styles
+
+---
+
+## Routing Layer
+
+Responsible for:
+
+- Dynamic routing
+- Nested routing
+- Route guards
+- Protected routes
+- Navigation flow
+
+Implemented inside:
+
+- app
+
+If MERN architecture is used, implement:
+
+- React Router DOM
+- Nested routing
+- Dynamic routes
+- Protected routes
+- Route guards
+- Lazy-loaded routes
+
+---
+
+## Component Layer
+
+Responsible for:
+
+- Reusable UI components
+- Shared layouts
+- Forms
+- Cards
+- Buttons
+- Modals
+- Loaders
+- Dashboard widgets
+
+Implemented inside:
+
+- components
+
+---
+
+## Business Logic Layer
+
+Responsible for:
+
+- Authentication logic
+- Validation logic
+- SEO utilities
+- Error handling
+- API utilities
+- Email services
+- Helper functions
+
+Implemented inside:
+
+- lib
+
+---
+
+## Database Layer
+
+Responsible for:
+
+- Database schema management
+- Query optimization
+- ORM configuration
+- Data modeling
+- Database migrations
+
+Implemented inside:
+
+- prisma
+
+---
+
+## AI and Analytics Layer
+
+Responsible for:
+
+- AI recommendations
+- Smart tagging
+- Search optimization
+- Analytics processing
+- Data preprocessing
+
+Implemented inside:
+
+- lib/ai
+- lib/analytics
+
+---
+
+## Security Layer
+
+Responsible for:
+
+- Input sanitization
+- Validation middleware
+- XSS protection
+- CSRF protection
+- Secure authentication
+- Secure API handling
+
+Implemented inside:
+
+- lib/security.ts
+- lib/auth.ts
+- lib/validators.ts
+
+---
+
+## Deployment Layer
+
+Responsible for:
+
+- Docker deployment
+- Environment handling
+- Production optimization
+- CI/CD workflows
+
+Implemented using:
+
+- Docker
+- Vercel
+- Netlify
+
+---
+
+# Routing and Pages
+
+All routing and application pages must exist inside the app directory.
+
+Include:
+
+- Homepage
+- Blog pages
+- Dynamic blog routes
+- Authentication pages
+- Admin dashboard
+- Contact page
+- Category pages
+- API routes
+- Error pages
 
 ---
 
 # UI and Animation Requirements
 
-## Modern Blog Experience
+## Scroll-Based Storytelling
 
-Implement:
+Use:
 
-- Smooth page transitions using Framer Motion
+- Framer Motion
+- Smooth page transitions
 - Scroll-triggered animations
-- Fade-in effects
+- Hover effects
+- Fade-in animations
 - Text reveal animations
-- Hover interactions
-- Parallax scrolling effects
-
----
-
-## Navigation Transitions
-
-Ensure smooth transitions between:
-
-- Home Page
-- Featured Blogs
-- Blog Detail Page
-- Categories Section
-- About Section
-- Contact Section
-- Admin Dashboard
-
----
-
-## Animation Constraints
+- Parallax effects
 
 Animations must:
 
-- Use GPU-friendly properties (`transform`, `opacity`)
+- Use GPU-friendly properties
 - Avoid layout thrashing
-- Maintain smooth scrolling performance
-- Work efficiently on mobile devices
-- Avoid rendering performance issues
+- Maintain smooth mobile performance
 
 ---
 
 # Layout Requirements
 
-## Required Website Sections
+The platform must include:
 
-The website must include:
-
-- Hero section with animated introduction
-- Featured blog grid
-- Latest blogs section
-- Trending categories section
+- Hero section
+- Featured blogs section
+- Categories section
 - Blog detail page
-- Related blogs recommendation section
-- Newsletter subscription section
-- Footer with social links
-- Admin dashboard with analytics cards
+- Newsletter section
+- Contact section
+- Responsive navbar
+- Footer
+- Admin dashboard
 
----
-
-## Layout Standards
-
-The layout must be:
-
-- Fully responsive
-- SEO optimized
-- Accessibility compliant
-- Performance optimized
-- Mobile-friendly
-- Semantic HTML based
+All reusable UI components must exist inside the components directory.
 
 ---
 
 # Blog Management Requirements
 
-## Blog Features
-
-Support the following functionality:
+Implement:
 
 - Create blog posts
 - Edit blog posts
 - Delete blog posts
-- Publish or unpublish blog posts
-- Save blog drafts
-- Upload featured images
-- Use categories and tags
-- Search blog posts
-- Recommend related posts
+- Save drafts
+- Publish/unpublish blogs
+- Featured image uploads
+- Category management
+- Tag management
+- Related blog recommendations
+- Full-text search
 
----
+Blog logic must exist inside:
 
-## Blog Rendering Features
-
-The blog system should support:
-
-- Markdown rendering
-- Rich-text rendering
-- Syntax highlighting for code blocks
-- Responsive typography
-- Reading progress indicator
-- Estimated reading time
-- Social sharing buttons
+- app/api
+- lib
+- prisma
 
 ---
 
 # Authentication and Authorization
 
-## Authentication System
-
-Implement authentication using:
+Implement:
 
 - JWT Authentication
 - NextAuth
-
----
-
-## Security Features
-
-The system must include:
-
+- Session handling
+- Password hashing
 - Role-based authorization
-- Protected admin routes
-- Secure password hashing
-- Session management
-
----
-
-## User Authentication Features
 
 Support:
 
-- User registration
-- Login
-- Logout
+- Login and registration
 - Forgot password
 - Email verification
+- Protected admin routes
+
+Authentication logic must exist inside:
+
+- lib/auth.ts
+- app/api/auth
 
 ---
 
-# Admin Dashboard Requirements
+# Contact System Requirements
 
-## Dashboard Features
+The contact system must include:
 
-The admin panel should include:
+- Contact form modal or page
+- Validation handling
+- Success and error responses
+- Smooth modal animations
 
-- Blog analytics overview
-- Total posts count
-- User engagement metrics
-- Recent activity section
-- Blog management table
-- Search and filtering tools
-- Draft management
-- User management
+Contact form fields:
+
+- Name
+- Email
+- Phone number
+- Message
 
 ---
 
-## Dashboard UI Interactions
+## Validation
 
-Include:
+Implement:
 
-- Smooth transitions
-- Animated analytics cards
-- Real-time updates
-- Loading skeletons
+- Client-side validation
+- API validation
+- Required field validation
+- Email validation
+- Sanitization
+- Type checking
+
+Use:
+
+- Zod
+- Joi
+- Yup
+
+Validation logic must exist inside the validation layer.
 
 ---
 
 # Backend Requirements
 
-## API Features
-
 Implement secure APIs for:
 
-- CRUD blog operations
-- Authentication and session handling
-- Secure image uploads
-- Data validation
-- Input sanitization
+- Authentication
+- Blog CRUD
+- Search
+- AI recommendations
+- Newsletter
+- Contact forms
+- File uploads
 
----
+All APIs must:
 
-## Security Protection
+- Return structured JSON responses
+- Handle errors gracefully
+- Sanitize all inputs
+- Use proper HTTP status codes
 
-Protect against:
-
-- XSS attacks
-- Injection attacks
-- CSRF vulnerabilities
-
----
-
-## Backend Capabilities
-
-Support:
-
-- REST APIs
-- Next.js API Routes
-- Secure error handling
-- Rate limiting
-- Validation middleware
-- Environment variable security
-
----
-
-# Database Requirements
-
-## Database Technologies
-
-Use:
-
-- MongoDB
-- PostgreSQL
-
----
-
-## Data Storage Requirements
-
-Store:
-
-- Users
-- Blog posts
-- Categories
-- Comments
-- Analytics
-- Newsletter subscriptions
-
----
-
-## Database Architecture Goals
-
-Ensure:
-
-- Scalability
-- Optimized queries
-- Proper indexing
-- Efficient document or relational modeling
-
----
-
-# Search and AI Features
-
-## Intelligent Blog Discovery
-
-Implement:
-
-- Full-text search
-- Tag filtering
-- Category recommendations
-- AI-powered related posts
-- Trending content detection
-
----
-
-## Optional AI Enhancements
-
-Include:
-
-- AI-generated summaries
-- AI reading recommendations
-- Smart content tagging
-- AI SEO suggestions
-
----
-
-# Newsletter and Contact Features
-
-## Newsletter System
-
-Implement:
-
-- Newsletter subscriptions
-- Email notifications
-- Validation handling
-- Success and error responses
-
----
-
-## Contact System
-
-The contact feature should include:
-
-- Contact form modal or page
-- Input validation
-- Error handling
-- Secure email sending
-
----
-
-## Email Services
-
-Use:
-
-- Nodemailer
-- Transactional email APIs
-- Secure SMTP configuration
-- Environment variables for credentials
+Backend logic must exist inside the backend utility layer and API routes.
 
 ---
 
 # Data Processing Requirements
 
-## API Standards
+If AI, analytics, or machine learning features are implemented, include:
 
-All APIs must:
+- df.isnull() handling
+- Missing value treatment
+- Outlier detection
+- Outlier handling
+- Data normalization
+- Feature engineering
+- Data preprocessing pipelines
 
-- Return structured JSON responses
-- Validate incoming data
-- Sanitize all inputs
-- Handle errors gracefully
-- Log backend failures securely
-
----
-
-## Example API Responses
-
-Support:
-
-- Success responses
-- Validation error responses
-- Authentication error responses
-- Server error responses
-
----
-
-# Performance and Scalability
-
-## Optimization Strategies
-
-Optimize the platform using:
-
-- Lazy loading
-- Bundle optimization
-- Image optimization
-- Server-side rendering
-- Static generation
-- Debouncing interactions
-- Data caching
-
----
-
-## Scalability Goals
-
-Ensure support for:
-
-- High concurrent traffic
-- Fast rendering
-- Smooth interactions
-- Minimal layout shifts
-- Fast Time to Interactive (TTI)
-
----
-
-# SEO and Lighthouse Goals
-
-Ensure:
-
-- Lighthouse optimization
-- SEO optimization
-- Accessibility optimization
-- High performance scores
+Data processing logic must exist inside the AI and analytics layer.
 
 ---
 
 # Error Handling and Documentation
 
-## Error Handling
+Implement enterprise-level error handling for:
 
-Handle:
-
-- Frontend validation errors
+- Validation failures
 - API failures
-- Database connection failures
+- Database errors
+- Upload failures
 - Authentication failures
-- File upload failures
+- Internal server errors
+
+Use:
+
+- Global error handlers
+- Structured JSON responses
+- Secure logging
+- User-friendly messages
+
+Documentation must include:
+
+- Setup instructions
+- Folder structure
+- Environment configuration
+- Deployment guide
+- API documentation
 
 ---
 
-## Documentation Requirements
+# Performance and Scalability
 
-Provide documentation for:
+Optimize using:
 
-- Folder structure
-- Setup instructions
-- Environment configuration
-- API routes
-- Database setup
-- Deployment process
+- Lazy loading
+- Code splitting
+- Image optimization
+- Debouncing
+- Data caching
+- SSR and SSG
+- Bundle optimization
+
+Ensure:
+
+- Fast loading speed
+- Minimal layout shifts
+- High Lighthouse scores
+
+---
+
+# SEO and Accessibility
+
+Implement:
+
+- SEO metadata
+- Sitemap generation
+- Open Graph support
+- Structured data
+- Accessibility optimization
+- Semantic HTML
+
+SEO logic must exist inside the SEO utility layer.
 
 ---
 
 # Deployment Requirements
 
-## Frontend Deployment
-
 Deploy using:
 
+- Docker
 - Vercel
 - Netlify
-- Docker
-
----
-
-## Backend Deployment
-
-Deploy using:
-
-- Node.js server
-- Next.js deployment
-- Docker
-
----
-
-## Database Hosting
 
 Use:
 
 - MongoDB Atlas
-- PostgreSQL Cloud
-
----
-
-## Media Storage
-
-Use:
-
 - Cloudinary
 - AWS S3
 
----
+Deployment configuration must include:
 
-## Deployment Features
-
-Include:
-
-- Production environment setup
+- Docker setup
+- Production environment configuration
 - CI/CD readiness
-- Secure environment handling
+- Secure deployment setup
 
 ---
 
 # Technology Stack
 
-## Frontend Technologies
+## Frontend
 
-Use:
+### Next.js
 
-- Next.js (App Router)
-- React
-- Framer Motion
-- Tailwind CSS
-- TypeScript
+Used for:
 
----
-
-## Backend Technologies
-
-Use:
-
-- Node.js
-- Next.js API Routes
-- Express.js
-- JWT Authentication
-- NextAuth
-- Nodemailer
+- App Router
+- SSR and SSG
+- API routes
+- Dynamic routing
+- SEO optimization
 
 ---
 
-## Database Technologies
+### React
 
-Use:
+Used for:
 
-- MongoDB
-- PostgreSQL
+- Reusable UI components
+- Dynamic rendering
+- State management
+
+---
+
+### Tailwind CSS
+
+Used for:
+
+- Responsive styling
+- Layout design
+- Mobile-first UI
+
+---
+
+### Framer Motion
+
+Used for:
+
+- Storytelling animations
+- Page transitions
+- Hover effects
+- Scroll animations
+
+---
+
+## Backend
+
+### Node.js
+
+Used for:
+
+- Backend runtime
+- API execution
+- Server-side operations
+
+---
+
+### JWT Authentication
+
+Used for:
+
+- Secure authentication
+- Protected routes
+- Authorization
+
+---
+
+### NextAuth
+
+Used for:
+
+- Authentication handling
+- Session management
+
+---
+
+### Nodemailer
+
+Used for:
+
+- Contact emails
+- Newsletter notifications
+- Verification emails
+
+---
+
+## Database
+
+### MongoDB
+
+Used for:
+
+- Blogs
+- Users
+- Comments
+- Analytics
+
+---
+
+### Prisma ORM
+
+Used for:
+
+- Database schema management
+- Type-safe queries
+- Database migrations
+
+---
+
+## Security
+
+### Zod / Joi / Yup
+
+Used for:
+
+- Form validation
+- API validation
+- Request sanitization
+
+---
+
+### Security Middleware
+
+Used for:
+
+- XSS protection
+- CSRF protection
+- Injection prevention
+- Rate limiting
+
+---
+
+## DevOps and Deployment
+
+### Docker
+
+Used for:
+
+- Containerized deployment
+- Production setup
+- Scalable infrastructure
+
+---
+
+### Cloudinary
+
+Used for:
+
+- Image uploads
+- Media storage
+
+---
+
+# Output Requirements
+
+The final application must include:
+
+- Fully functional frontend
+- Secure backend APIs
+- AI-powered blog features
+- Admin dashboard
+- Markdown support
+- Input validation
+- Error handling
+- Secure routing
+- Database integration
+- Docker deployment setup
+- Production-ready architecture
+
+The final project must be scalable, secure, modern, responsive, optimized, maintainable, and fully production-ready.

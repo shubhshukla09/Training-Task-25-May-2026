@@ -478,17 +478,6 @@ Documentation must include:
 ---
 
 # Performance and Scalability
-
-Optimize using:
-
-- Lazy loading
-- Code splitting
-- Image optimization
-- Debouncing
-- Data caching
-- SSR and SSG
-- Bundle optimization
-
 Ensure:
 
 - Fast loading speed
@@ -655,38 +644,6 @@ Used for:
 - Form validation
 - API validation
 - Request sanitization
-
----
-
-### Security Middleware
-
-Used for:
-
-- XSS protection
-- CSRF protection
-- Injection prevention
-- Rate limiting
-
----
-
-## DevOps and Deployment
-
-### Docker
-
-Used for:
-
-- Containerized deployment
-- Production setup
-- Scalable infrastructure
-
----
-
-### Cloudinary
-
-Used for:
-
-- Image uploads
-- Media storage
 
 ---
 
